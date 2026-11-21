@@ -1,0 +1,18 @@
+{
+    "cacheBaseUrl": "https://tend-hewlett-mozilla-stereo.trycloudflare.com/reason-cache/",
+    "loginMetadataUrl": "https://tend-hewlett-mozilla-stereo.trycloudflare.com/reason-cache/login-metadata.json",
+    "bridgeUrl": "wss://tend-hewlett-mozilla-stereo.trycloudflare.com/reason-native",
+    "serverName": "Reason",
+    "worlds": [
+        {
+            "name": "Reason",
+            "address": "tend-hewlett-mozilla-stereo.trycloudflare.com/reason-native",
+            "secure": true
+        },
+        {
+            "name": "Reason Beta",
+            "address": "tend-hewlett-mozilla-stereo.trycloudflare.com/reason-native?world=beta",
+            "secure": true
+        }
+    ]
+}
